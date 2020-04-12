@@ -71,6 +71,7 @@ int fputc(int ch, FILE *f) {
 //------------------------------------------------------------------------------
 ///  Returns the error status accumulated during file I/O.
 //------------------------------------------------------------------------------
+#undef ferror
 int ferror(FILE *f) {
     return EOF;
 }

@@ -31,7 +31,6 @@
 //         Headers
 //------------------------------------------------------------------------------
 
-#include <chip.h>
 #include <board.h>
 #include <dbgu/dbgu.h>
 #include <twi/twi.h>
